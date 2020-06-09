@@ -1,0 +1,8 @@
+.idea/
+node_modules/
+coverage/
+build/
+tmp/*
+!tmp/.gitkeep
+.env
+ormconfig.json
