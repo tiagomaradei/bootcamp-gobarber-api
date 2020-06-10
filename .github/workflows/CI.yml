@@ -17,12 +17,12 @@ jobs:
       with:
         fetch-depth: 0
 
-    - name: Install Node.js
+    - name: Installing Node.js
       uses: actions/setup-node@v1
       with:
         node-version: 12.x
 
-    - name: Install dependencies
+    - name: Installing dependencies
       run: yarn
 
     - name: Checking Tests
@@ -31,5 +31,5 @@ jobs:
     - name: Checking commit message
       uses: wagoid/commitlint-github-action@v1
 
-    # - name: Check linting
-    #   run: yarn lint
+    - name: Checking linting
+      run: yarn lint
