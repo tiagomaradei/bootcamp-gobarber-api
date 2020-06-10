@@ -5,5 +5,4 @@ build/
 tmp/*
 !tmp/.gitkeep
 .env
-ormconfig.json
 yarn-error.log
