@@ -1,6 +1,7 @@
-.idea/
-node_modules/
-coverage/
+.idea
+node_modules
+coverage
+dist
 build/
 tmp/*
 !tmp/.gitkeep
